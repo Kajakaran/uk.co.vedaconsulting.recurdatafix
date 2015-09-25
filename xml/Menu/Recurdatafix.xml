@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+  <item>
+    <path>civicrm/recurdatafix/retrieve</path>
+    <title>Recur Record Fix For Smart Debit </title>
+    <path_arguments></path_arguments>
+    <page_callback>CRM_Recurdatafix_Form_Retrieve</page_callback>
+    <access_arguments>administer CiviCRM</access_arguments>
+    <page_type>0</page_type>
+    <component>Contact</component>
+  </item>
+  
+    <item>
+    <path>civicrm/recurdatafix/create</path>
+    <title>Recur Record Fix For Smart Debit </title>
+    <path_arguments></path_arguments>
+    <page_callback>CRM_Recurdatafix_Form_Insertrecur</page_callback>
+    <access_arguments>administer CiviCRM</access_arguments>
+    <page_type>0</page_type>
+    <component>Contact</component>
+  </item>
+  
+  <item>
+    <path>civicrm/recurdatafix/update</path>
+    <title>Recur Record Fix For Smart Debit </title>
+    <path_arguments></path_arguments>
+    <page_callback>CRM_Recurdatafix_Form_Update</page_callback>
+    <access_arguments>administer CiviCRM</access_arguments>
+    <page_type>0</page_type>
+    <component>Contact</component>
+  </item>
+</menu>
+
